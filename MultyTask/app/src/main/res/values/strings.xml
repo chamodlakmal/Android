@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Multy Task</string>
+    <string name="title">Multy Task App</string>
+    <string name="btnname1">Stop watch</string>
+    <string name="btnname2">Take A Photo</string>
+    <string name="btnname3">Calculator</string>
+    <string name="btnname4">Listen A Song</string>
+    <string name="choise">Select Your Choise</string>
+    <string name="stsrt">start</string>
+    <string name="Pause">Pause</string>
+    <string name="Reset">Reset</string>
+    <string name="stop">stop</string>
+</resources>

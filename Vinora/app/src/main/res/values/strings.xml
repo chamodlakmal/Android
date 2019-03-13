@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Winora</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">User Name</string>
+    <string name="password">Password *</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="reset">Reset</string>
+    <string name="username_hint">John@example.com</string>
+    <string name="password_hint">123456</string>
+    <string name="donthaveaaccount">Don\'t have a Account?</string>
+</resources>

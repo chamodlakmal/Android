@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="My Profile"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/name"
+        android:textSize="14dp"
+        android:gravity="left|center"
+        android:paddingLeft="20sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/john"
+        android:paddingLeft="20sp"
+        android:id="@+id/etName"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Email"
+        android:paddingLeft="20sp"
+        android:id="@+id/etEmail"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/john_currency"
+        android:paddingLeft="20sp"
+        android:id="@+id/etCurrency"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/btnName"
+        android:background="@color/colorAccent"
+        android:layout_margin="20dp"
+        android:textColor="#fff"
+        android:onClick="save"
+        android:textSize="25sp"/>
+
+
+</LinearLayout>
