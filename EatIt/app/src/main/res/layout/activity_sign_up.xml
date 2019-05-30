@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_bg"
+    tools:context=".SignUp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <EditText
+            android:id="@+id/edtPhone"
+            android:textColor="@android:color/white"
+            android:inputType="phone"
+            android:hint="Phone number"
+            android:text="0988123388"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <EditText
+            android:id="@+id/edtName"
+            android:textColor="@android:color/white"
+            android:inputType="text"
+            android:hint="Name"
+            android:text="Chathuranga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:textColor="@android:color/white"
+            android:inputType="textPassword"
+            android:hint="123"
+            android:text="123"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+
+    </LinearLayout>
+    <Button
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        android:shadowColor="@android:color/black"
+        android:id="@+id/signUp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/btnSignUp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+
+        />
+
+
+</RelativeLayout>
