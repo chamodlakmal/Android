@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNote"
+    android:background="@color/ladam"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/notepad"
+            android:layout_gravity="center"
+            android:layout_margin="40dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:text="Add Your Notes"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:shadowColor="#fff"
+            android:shadowDx="2.5"
+            android:shadowDy="2.3"
+            android:shadowRadius="2.6"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:background="@drawable/edit"/>
+        <EditText
+            android:id="@+id/etNote"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:hint="Note"
+            android:textSize="18sp"
+            android:background="#fff"
+            android:paddingLeft="10dp"
+
+
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:onClick="notesave"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+
+        android:text="Save"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/primary_text"
+        android:clickable="true"
+        android:textAllCaps="true"
+        android:background="@drawable/buttonshape"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="10dp"
+
+        />
+
+</LinearLayout>
